@@ -68,7 +68,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
                 value={formData.nombre_cliente}
                 onChange={handleChange}
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Juan Pérez"
+                placeholder="Shawn Mendes"
                 required
               />
             </div>
@@ -88,7 +88,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
                 value={formData.correo_cliente}
                 onChange={handleChange}
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="juan@email.com"
+                placeholder="shawn@email.com"
                 required
               />
             </div>
@@ -148,7 +148,7 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
                 value={formData.pais_cliente}
                 onChange={handleChange}
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Colombia"
+                placeholder="Canadá"
                 required
               />
             </div>
